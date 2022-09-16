@@ -1,0 +1,141 @@
+/* comon css start  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* comon css end  */
+
+
+/* header section start  */
+
+header {
+    background: #34a4a0;
+}
+
+.header-logo {}
+
+.header-logo img {
+    margin-top: 9px;
+}
+
+.header-menu {}
+
+.header-menu ul {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+}
+
+.header-menu ul li::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    transform: scale(0);
+    bottom: 3px;
+    left: 0;
+    transition: .5s;
+}
+
+.header-menu ul li:hover::after {
+    transform: scale(1);
+}
+
+.header-menu ul li:nth-child(3) {
+    background: #2f9488;
+}
+
+.header-menu ul li:nth-child(1) {
+    padding-left: 0;
+}
+
+.header-menu ul li:nth-child(8) {
+    padding-right: 0;
+}
+
+.header-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 13px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 57px;
+    transition: .5s;
+}
+
+.header-menu ul li a:hover {
+    background: #2f9488;
+}
+
+.header-notice span {
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.header-name p {
+    margin-bottom: -1rem;
+    line-height: 57px;
+    color: #fff;
+}
+
+.sr-btn {
+    margin-top: 8px !important;
+}
+
+.header-btn {
+    margin-top: 10px;
+}
+
+.customh {
+    padding: 10px 5px;
+}
+
+.position {}
+
+.student {}
+
+.image {}
+
+.atn {}
+
+.point {}
+
+.st-position span {
+    margin: 30px;
+    line-height: 94px;
+}
+
+.st-student {
+    padding-top: 35px;
+    font-size: 14px;
+}
+
+.st-image img {
+    margin-top: 9px;
+}
+
+.st-atn p {
+    line-height: 96px;
+    margin-left: 55px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+
+/* header  section end  */
